@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ELSA</title>
+		<!-- FONT -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- FONT AWESOME -->
+		<script
+			src="https://kit.fontawesome.com/6b338fc1a8.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./assets/styles.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="header">
+				<div class="header__logo">
+					<img src="./assets/image/logo.png" alt="logo" />
+				</div>
+			</div>
+			<main id="main">
+				<!-- HERO-->
+				<div class="hero">
+					<div class="hero__desk">
+						<h1 class="hero__desk__title">
+							App luyện nói <br />
+							& giao tiếp tiếng anh thời 4.0
+						</h1>
+						<p class="hero__desk__subtitle">
+							Với ELSA Speak - Ai Cũng Có Thể Nói Tiếng Anh Hay!
+						</p>
+						<a href="#register" class="button">Đăng ký ngay</a>
+					</div>
+					<div class="hero__img">
+						<img src="./assets/image/hero-phone.png" alt="" />
+					</div>
+				</div>
+
+				<!-- REGISTER  -->
+				<div id="register" class="register">
+					<div class="register__bg">
+						<img src="./assets/image/form-bg.png" alt="" />
+					</div>
+					<div class="register__form">
+						<div class="register__form__title">
+							CÙNG ỨNG DỤNG ELSA <br />
+							NÓI TIẾNG ANH “THẢ GA”
+						</div>
+						<div class="register__form__content">
+							<div class="register__form__field">
+								<label class="field__label" for="name">
+									<span class="field__label__icon">
+										<img src="./assets/image/form-icon-user.png" alt="Họ tên" />
+									</span>
+									<span class="field__label__text">Họ tên *</span>
+								</label>
+								<input class="field__input" id="name" name="name" type="text" />
+								<div class="field__error"></div>
+							</div>
+							<div class="register__form__field">
+								<label class="field__label" for="phone">
+									<span class="field__label__icon">
+										<img
+											src="./assets/image/form-icon-phone.png"
+											alt="Số điện thoại"
+										/>
+									</span>
+									<span class="field__label__text">Số điện thoại *</span>
+								</label>
+								<input
+									class="field__input"
+									type="text"
+									id="phone"
+									name="phone"
+								/>
+								<div class="field__error"></div>
+							</div>
+							<div class="register__form__field">
+								<label class="field__label" for="email">
+									<span class="field__label__icon">
+										<img src="./assets/image/form-icon-email.png" alt="Email" />
+									</span>
+									<span class="field__label__text">Email *</span>
+								</label>
+								<input
+									class="field__input"
+									type="email"
+									id="email"
+									name="email"
+								/>
+								<div class="field__error"></div>
+							</div>
+							<div class="register__form__options">
+								<div class="options__item">
+									<div class="options__item__checkbox">
+										<input
+											type="radio"
+											checked
+											class="option-checkbox"
+											name="membership"
+											id="option-1"
+											value="6-month"
+										/>
+										<div class="option-checkbox-control">
+											<span class="option-checkbox-checked">
+												<i class="fa-solid fa-check"></i>
+											</span>
+										</div>
+									</div>
+									<label for="option-1">Gói học 1 năm</label>
+								</div>
+								<div class="options__item">
+									<div class="options__item__checkbox">
+										<input
+											type="radio"
+											class="option-checkbox"
+											name="membership"
+											id="option-2"
+											value="lifetime"
+										/>
+										<div class="option-checkbox-control">
+											<span class="option-checkbox-checked">
+												<i class="fa-solid fa-check"></i>
+											</span>
+										</div>
+									</div>
+									<label for="option-2">Gói trọn đời</label>
+								</div>
+							</div>
+							<div class="register__form__price">989.000 VND</div>
+							<button class="register__form__sunmit button">Gửi đăng ký</button>
+							<div class="register__form__succes">
+								<i class="fa-solid fa-circle-check"></i
+								><span>Đăng ký thành công</span>
+							</div>
+						</div>
+					</div>
+					<div class="register__img">
+						<img src="./assets/image/from-img-1.png" alt="phone" />
+					</div>
+				</div>
+
+				<!-- SECTION  -->
+				<div class="container">
+					<div class="section">
+						<div class="section__heading">
+							<h2 class="section__title">CÁ NHÂN HOÁ LỘ TRÌNH HỌC</h2>
+							<p class="section__subTitle">
+								Làm bài kiểm tra đầu vào với ELSA trong 5 phút và bạn sẽ có:
+							</p>
+						</div>
+						<div class="section__content">
+							<div class="item">
+								<div class="item__img">
+									<img src="./assets/image/section-1.png" alt="" />
+								</div>
+								<p class="item__text">
+									Trí tuệ nhân tạo trả về bạn số điểm
+									<span class="text--important">“CHUẨN BẢN XỨ"</span>
+								</p>
+							</div>
+							<div class="item">
+								<div class="item__img">
+									<img src="./assets/image/section-1.png" alt="" />
+								</div>
+								<p class="item__text">
+									<span class="text--important">NGAY LẬP TỨC</span>, bạn biết
+									mình phát âm sai ở đâu qua những gam màu trực quan sinh động.
+								</p>
+							</div>
+							<div class="item">
+								<div class="item__img">
+									<img src="./assets/image/section-3.png" alt="" />
+								</div>
+								<p class="item__text">
+									<span class="text--important">CÔNG NGHỆ NHẬN DIỆN</span> giọng
+									nói chuẩn đến từng âm tiết.
+								</p>
+							</div>
+							<div class="item">
+								<div class="item__img">
+									<img src="./assets/image/section-4.png" alt="" />
+								</div>
+								<p class="item__text">
+									ELSA sẽ
+									<span class="text--important"
+										>LẬP LỘ TRÌNH HỌC CÁ NHÂN HOÁ</span
+									>
+									dựa trên các chỉ số bài kiểm tra đầu vào của bạn.
+								</p>
+							</div>
+						</div>
+						<div class="section__button">
+							<a href="#register">Đăng ký ngay</a>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<!--  -->
+		<script src="./app.js"></script>
+	</body>
+</html>
